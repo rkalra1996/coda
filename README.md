@@ -1,5 +1,7 @@
 ## Coda Fullstack Hiring Challenge
 This project is the backend for the project https://coda-front-end.netlify.app/
+Backend is already deployed on https://pacific-stream-42469.herokuapp.com and you can access the apis as mentioned below. However, note that this deployment will only be active for 2 weeks from the date 20 December, 2020.
+
 
 ## Details
 1. The project is developed on NestJS (library built on top of nodeJS)
