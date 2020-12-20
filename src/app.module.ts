@@ -6,7 +6,7 @@ import { LeaderboardModule } from './leaderboard/leaderboard.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://rishabh:123Rishu@cluster0.euv0l.mongodb.net/coda?retryWrites=true&w=majority', {useNewUrlParser: true, useFindAndModify: false}),
+    MongooseModule.forRoot('', {useNewUrlParser: true, useFindAndModify: false}),
     LeaderboardModule,
   ],
   controllers: [AppController],

@@ -39,3 +39,15 @@ Backend is already deployed on https://pacific-stream-42469.herokuapp.com and yo
 3. The database used in the project is mongoDB
 4. All the get queries are paginated and sorted by score and name.
 5. Project also uses socket.io to notify the frontend client whenever an update happens in the database so that realtime data can be served
+
+## Deployment Details
+This project has a procfile, which means it can be deployed to heroku or similar deplyment engines.
+
+
+## Running the project locally
+
+1. Clone the project (assuming you have nodejs v8 or higher already installed)
+2. Type ```npm i```
+3. Connect a mongo database which has a db named coda and collection named leaderboards by updating the connection string present in app.module.ts
+4. Type npm run start:dev
+5. visit http://localhost:3000/leaderboard 
